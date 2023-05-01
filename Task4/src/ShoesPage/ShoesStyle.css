@@ -1,0 +1,11 @@
+.Add-car{
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius:8px;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+  }

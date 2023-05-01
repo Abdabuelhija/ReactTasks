@@ -53,8 +53,3 @@ const [
 // const { [propName]: { name, age, getAddress } } = obj;
 // const { street, city, state } = getAddress();
 
-
-
-
-
-
