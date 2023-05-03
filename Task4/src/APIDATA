@@ -1,0 +1,94 @@
+
+API LINK:https://6451781fa3221969116410b1.mockapi.io/Shoes
+[
+ {
+  "Name": "Nike Air Force",
+  "Color": "White",
+  "Price": 700,
+  "Sizes": "41-46",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoes-rWtqPn.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/33533fe2-1157-4001-896e-1803b30659c8/air-force-1-07-shoes-rWtqPn.png",
+  "ID": "1"
+ },
+ {
+  "Name": "Nike Wearallday",
+  "Color": "White",
+  "Price": 400,
+  "Sizes": "40-48",
+  "Img1": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e64c436b-32e0-4684-8a78-5708b0cb5f0b/wearallday-shoe-PDB9Wd.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aa9a6691-d970-4e4c-b5a3-3ffac9cac4d6/wearallday-shoe-PDB9Wd.png",
+  "ID": "2"
+ },
+ {
+  "Name": "Nike Air Force 1 '07",
+  "Color": "White-Black",
+  "Price": 650,
+  "Sizes": "all the sizes",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f3e7049-5c99-428c-abcd-e246b086f2ed/air-force-1-07-shoes-SqKG2H.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/66d458f3-20aa-43c1-b748-4a0fbc0e2679/air-force-1-07-shoes-SqKG2H.png",
+  "ID": "3"
+ },
+ {
+  "Name": "Nike Air Force 1 Low By You",
+  "Color": "Yellow-Brown",
+  "Price": 400,
+  "Sizes": "38-48",
+  "Img1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c22d8da8-9148-4073-af54-8b031d38e347/custom-nike-air-force-1-low-by-you.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/514edfa7-19e5-44e2-8c4b-38235710af7f/custom-nike-air-force-1-low-by-you.png",
+  "ID": "4"
+ },
+ {
+  "Name": "Air Jordan 1 Mid",
+  "Color": "Black-White",
+  "Price": 1500,
+  "Sizes": "41,43",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/zzmfk3kwuw3ktkilxfnp/air-jordan-1-mid-shoes-D8g1Qq.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/j88t8qhwhwidgcdn85br/air-jordan-1-mid-shoes-D8g1Qq.png",
+  "ID": "5"
+ },
+ {
+  "Name": "Nike Waffle One",
+  "Color": "Color 6",
+  "Price": 700,
+  "Sizes": "40,41-46",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d49fc03c-512d-4a4e-b6f1-3213b1e7ae60/waffle-one-shoes-BVbQrn.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f4a499f4-0cf0-4146-b9b8-b68c463b9b5a/waffle-one-shoes-BVbQrn.png",
+  "ID": "6"
+ },
+ {
+  "Name": "Nike Air Max 270",
+  "Color": "Color 7",
+  "Price": 600,
+  "Sizes": "38.5-49.5",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/skwgyqrbfzhu6uyeh0gg/air-max-270-shoes-nnTrqDGR.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/teknzwtqlkelexo5okx0/air-max-270-shoes-nnTrqDGR.png",
+  "ID": "7"
+ },
+ {
+  "Name": "Air Jordan 5 Retro Low SP",
+  "Color": "red-Black",
+  "Price": 980,
+  "Sizes": "38-45",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/eb34b993-0f77-4896-9d1c-0c6584cf1eb2/air-jordan-5-retro-low-sp-shoes-HK49DJ.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5700c077-855c-4d7d-80ed-7fffc2e8440c/air-jordan-5-retro-low-sp-shoes-HK49DJ.png",
+  "ID": "8"
+ },
+ {
+  "Name": "Air Jordan Legacy 312 Low",
+  "Color": "red-black-blue",
+  "Price": 950,
+  "Sizes": "all the sizes",
+  "Img1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/28f90b46-2cdd-4738-9080-cd64314f3cd7/air-jordan-legacy-312-low-shoes-mpV0mH.png",
+  "Img2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c3aaf8dd-d164-4cdc-8673-bb944f99cb80/air-jordan-legacy-312-low-shoes-mpV0mH.png",
+  "ID": "9"
+ },
+ {
+  "Name": "Racer Blue",
+  "Color": "blue-gold",
+  "Price": 2000,
+  "Sizes": "43",
+  "Img1": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/60290d51-183a-41c3-acee-acb6c4c7f6e8/nike-air-max-scorpion-flyknit-se-dx4768-400.jpg",
+  "Img2": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/bbf35a65-064e-4a37-ba80-66ce39cd388f/nike-air-max-scorpion-flyknit-se-dx4768-400.jpg",
+  "ID": "10"
+ }
+]

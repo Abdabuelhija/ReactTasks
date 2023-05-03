@@ -1,42 +1,58 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './HomeStyle.css';
 import '../GeneralStyles/Card.css';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShekelSign } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';
+import axios from 'axios';
+import { useParams,useNavigate,Link } from "react-router-dom";
+
 
 export default function HomePage() {
   document.title="Abeds Shoes - Home";
+
+  const [shoes, setShoes] = useState([]);
+
+useEffect(() => {
+  async function fetchShoes() {
+    try {
+      const response = await axios.get('https://6451781fa3221969116410b1.mockapi.io/Shoes');
+      const limitedData = response.data.slice(0,4);
+      setShoes(limitedData);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  fetchShoes();
+}, []);
+
   return (
     <>
       <h1>Welcome To Abed's Store </h1>
       <h2 style={{ marginLeft: '50px' }}>The Most Recommended</h2>
       <div
         class="Cars"
-        style={{ background:'rgb(222, 222, 222)', padding: '5px', marginTop: '1px' }}
+        style={{ background:'rgb(222, 222, 222)', padding: '5px', marginTop: '1px' ,paddingLeft:'50px', marginLeft:'30px'}}
       >
-        <Link to="/ShoePage" style={{ color: 'black', textDecoration: 'none' }}>
+        {shoes.map((shoe) => (
+          <Link to={`/ShoePage/${shoe.ID}`} style={{ color: 'black', textDecoration: 'none' }}>
           <div class="Shoecard">
-            <img
-              className="Cardimg"
-              src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoes-rWtqPn.png"
-              alt="Avatar"
+            <img className='Cardimg'
+              src={shoe.Img1}
+              alt={shoe.Name}
             />
             <div class="container">
-              <span className="ShoeName">
-                <b>Nike Air Force</b>
+              <span className="ShoeName" style={{fontSize:'15px'}}>
+                <b>{shoe.Name}</b>
               </span>
               <span>
-                <b>Color : </b>White
+                <b>Color : </b>{shoe.Color}
               </span>
-              <span>
-                <b>Price : </b>250{' '}
-                <FontAwesomeIcon icon={faShekelSign} size="xs" />
-              </span>
+              <span><b>Price : </b>{shoe.Price} <FontAwesomeIcon icon={faShekelSign} size="xs" /></span>
+
             </div>
           </div>
         </Link>
+            ))}
       </div>
       <h2>About Us</h2>
       <p>
