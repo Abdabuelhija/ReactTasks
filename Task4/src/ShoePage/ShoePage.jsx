@@ -44,7 +44,11 @@ useEffect(() => {
 
 {/* Update Modal */}
   const [show1, setShow1] = useState(false);
-  const handleClose1 = () => setShow1(false);
+  const handleClose1 = () => {
+    setShow1(false);
+    window.location.reload();
+  }
+  
   const handleShow1 = () => setShow1(true);
 
 
